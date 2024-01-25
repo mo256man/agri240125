@@ -248,7 +248,6 @@ def setConfig():
                 "isContecTry": request.form["isContecTry"],
                 "isLEDTry": request.form["isLEDTry"],
                 "isNightSense": request.form["isNightSense"],
-                "autorestart": request.form["autorestart"],
                 }
         db.set_config(dict)
         
